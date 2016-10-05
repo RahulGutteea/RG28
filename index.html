@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>RG TOURS</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+
+
+	<div class="container index">
+	  <div class="row ">
+	    <div class='col-md-12 text-center'><img id='enter' src="images/rglogo.png" alt="logo" style="width:155px; height:100px;" /></div>
+	  </div>
+	  <div class='row'>
+	  	<div class='col-md-12' id='welcome'><img src="images/pointing-right.png"/> <a href='homepage.html'><span id="name">Welcome </span></a></div>
+	  </div>
+	</div>
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+
+
+			$(function(){
+
+				var name;
+				name = prompt("Enter your name.",'');
+
+				localStorage.name = name;
+
+				$('#name').append(name);
+				$('#welcome').hide();
+				$('#enter').mouseenter(function(){
+					$('#welcome').show('slow');
+				});
+			});
+
+		</script>
+    </body>
+</html>

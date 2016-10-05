@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>RG TOURS</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+
+
+	<div class="container">
+	  <div class="row ">
+	    <div class='col-md-3'><img id='enter' src="images/rglogo.png" alt="logo" style="width:155px; height:100px;" /></div>
+	    <div class="col-md-9">
+		    <ul class="menu nav nav-pills">
+		      <li class='active'><a href="index.html">Home</a></li>
+		      <li><a href="about us.html">About us</a></li>
+		      <li>
+		      	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      	      Tours <span class="caret"></span>
+		      	    </a>
+		      	    <ul class="dropdown-menu">
+		      	      <li><a href="underseawalk.html">Undersea walk </a></li>
+		      	      <li><a href="parasailing.html">Parasailing</a></li>
+		      	    </ul>
+		      </li>
+		      <li><a href="gallery.html">Gallery</a></li>
+		      <li><a href="contact us.html">Contact us</a></li>
+		      <li id='menu-name'>Welcome </li>
+		    </ul>
+	    </div>
+	  </div>
+	  <div class='row content'>
+	  	<div class="col-md-6"><img src="images/parasailing.jpg" alt="Trou Aux Biches" style="width:350px;height:180px;"/></div>
+	  	<div class="col-md-6">
+	  	<h3>Parasailing</h3>
+	  		<p><strong>
+  			For those of you for whom a quiet suntan on the beach is not thrilling enough, you can always try your hand at parasailing.
+ You will be rewarded by a breathtaking bird's eye view of the lagoon and its multifarious underwater sea-scapes. Ask the manager of the local boat-house for the update on currents and winds.
+ For additional excitement, choose the "touch and go". On the way down, instead of just reeling back onto the boat, you linger a while above the ocean and then... dunk for a wet, wild, refreshing plunge !!
+	  		</strong></p>
+	  	</div>
+	  </div>
+
+	  <div class="row">
+	  <footer>
+	  <hr/>
+	  		<p>RG tours 2016 website by Deepak Gutteea.</p>
+	  </footer>	
+	  </div>
+	</div>
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+
+			$(function(){
+
+				var name = localStorage.name;
+				$('#menu-name').append(name);
+			
+			});
+
+		</script>
+    </body>
+</html>

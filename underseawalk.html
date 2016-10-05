@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>Undersea Walk | RG TOURS</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+
+
+	<div class="container">
+	  <div class="row ">
+	    <div class='col-md-3'><img id='enter' src="images/rglogo.png" alt="logo" style="width:155px; height:100px;" /></div>
+	    <div class="col-md-9">
+		    <ul class="menu nav nav-pills">
+		      <li class='active'><a href="index.html">Home</a></li>
+		      <li><a href="about us.html">About us</a></li>
+		      <li>
+		      	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      	      Tours <span class="caret"></span>
+		      	    </a>
+		      	    <ul class="dropdown-menu">
+		      	      <li><a href="underseawalk.html">Undersea walk </a></li>
+		      	      <li><a href="parasailing.html">Parasailing</a></li>
+		      	    </ul>
+		      </li>
+		      <li><a href="gallery.html">Gallery</a></li>
+		      <li><a href="contact us.html">Contact us</a></li>
+		      <li id='menu-name'>Welcome </li>
+		    </ul>
+	    </div>
+	  </div>
+	  <div class='row content'>
+	  	<div class="col-md-6"><img src="images/underwater-sea.jpg" alt="Trou Aux Biches" style="width:350px;height:180px;"/></div>
+	  	<div class="col-md-6">
+	  	<h3>Undersea walk</h3>
+	  		<p><strong>
+  			Enjoy a safe and fascinating walk on the wet side of Mauritius, to view the undersea world, corals, meeting the fish of our tropical lagoons and much much more. Feel the intense pleasure of a sub-marine stroll...
+  			 Experience the ultimate sensation where time stops, worries hide away and breathing underwater becomes possible...
+  			 Also the true experience of feeding fishes bare handed. You will be thrilled. It's a life-time experience !
+	  		</strong></p>
+	  	</div>
+	  </div>
+
+	  <div class="row">
+	  <footer>
+	  <hr/>
+	  		<p>RG tours 2016 website by Deepak Gutteea.</p>
+	  </footer>	
+	  </div>
+	</div>
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+
+			$(function(){
+
+				var name = localStorage.name;
+				$('#menu-name').append(name);
+			
+			});
+
+		</script>
+    </body>
+</html>

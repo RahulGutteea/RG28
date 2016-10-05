@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-weight: inherit;
+ font-style: inherit;
+ font-size: 100%;
+ vertical-align: middle;
+}
+
+#class{position:static;
+}
+
+
+
+#class2{position : fixed; width : 500px; height : 50px; float:right;
+ margin-right:250px;margin-top: 0px;right: 60px;
+ }
+ 
+ 
+ nav{ background-color : #2f97ff; float: left; padding: 10px; position: fixed; top: 110px; width:980px;
+ height: 20px; opacity:0.4;margin-left: 180px;
+ 
+	 
+ }
+ a {color:#fff;float: left; text-decoration: none; padding: 20px; left: 400px;
+ display: inline-block; text-align: center; font-family:Arial; 
+ }
+ 
+ ul{color:#fff;}
+ 
+ #section1{position:fixed; left: 35%;top: 100px;}
+ 
+ #section2{position:fixed;left:40%;top:100px;}
+ 
+ #section3{position:fixed;left:46%;top:100px;}
+ 
+ #section4{position:fixed;left:52%;top:100px;}
+  
+ #section5{position:fixed;left:57%;top:100px;}
+ 
+footer { background-color:#061245; height:19px;
+	
+}
+
+
+h1{color:#fff;font-family: Arial; float: right; font-size:12px;}
+
+#map{position: absolute; margin-left:280px;top:350px; 
+	
+}
+#container{ position: fixed; width: 300px;
+	
+}
+
+#filter{ background-color:#f68c0e;  opacity:0.3; position:fixed;height:625px;
+margin-left: 180px;
+	
+}
+
+#content{
+	
+}
+
+h2{font-family:Requiem; color:#fff; margin-left: 700px; margin-top:350px; padding : 10px; width:400px;
+	
+}
+
+
+
+h3{position:fixed;color:#fff; font-family:Flying Leatherneck; font-size: 50px; margin-top: 200px;
+margin-left: 450px;
+	
+}

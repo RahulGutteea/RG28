@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>Contact | RG TOURS</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/validationEngine.jquery.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+
+	<div class="container">
+	  <div class="row ">
+	    <div class='col-md-3'><img id='enter' src="images/rglogo.png" alt="logo" style="width:155px; height:100px;" /></div>
+	    <div class="col-md-9">
+		    <ul class="menu nav nav-pills">
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="about us.html">About us</a></li>
+		      <li>
+		      	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      	      Tours <span class="caret"></span>
+		      	    </a>
+		      	    <ul class="dropdown-menu">
+		      	      <li><a href="underseawalk .html">Undersea walk </a></li>
+		      	      <li><a href="parasailing.html">Parasailing</a></li>
+		      	    </ul>
+		      </li>
+		      <li><a href="gallery.html">Gallery</a></li>
+		      <li  class='active'><a href="contact us.html">Contact us</a></li>
+		      <li id='menu-name'>Welcome </li>
+		    </ul>
+	    </div>
+	  </div>
+	  <div class='row content'>
+	  	<div class="col-md-6"><img src="images/map location.jpg" alt="Trou Aux Biches" style="width:350px;height:180px;"/></div>
+	  	<div class="col-md-6">
+	  		<h2> Contact Us</h2>
+	  		<form role="form" method='POST'>
+	  		        
+                
+				<div class="form-group">
+					<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+				</div>
+                <div class="form-group">
+                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                </div>
+	  		            
+  		        <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+	        </form>
+
+	  	</div>
+	  </div>	
+
+	  <div class="row">
+	  <footer>
+	  <hr/>
+	  		<p>RG tours 2016 website by Deepak Gutteea.</p>
+	  </footer>	
+	  </div>
+	</div>
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/languages/jquery.validationEngine-en.js"></script>
+		<script src="js/jquery.validationEngine.js"></script>
+		<script>
+
+			$(function(){
+
+				var name = localStorage.name;
+				$('#menu-name').append(name);
+			
+			});
+
+		</script>
+    </body>
+</html>

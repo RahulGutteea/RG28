@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>Gallery | RG TOURS</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/feature-carousel.css" charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+
+
+	<div class="container">
+	  <div class="row ">
+	    <div class='col-md-3'><img id='enter' src="images/rglogo.png" alt="logo" style="width:155px; height:100px;" /></div>
+	    <div class="col-md-9">
+		    <ul class="menu nav nav-pills">
+		      <li><a href="index.html">Home</a></li>
+		      <li><a href="about us.html">About us</a></li>
+		      <li>
+		      	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      	      Tours <span class="caret"></span>
+		      	    </a>
+		      	    <ul class="dropdown-menu">
+		      	      <li><a href="underseawalk.html">Undersea walk </a></li>
+		      	      <li><a href="parasailing.html">Parasailing</a></li>
+		      	    </ul>
+		      </li>
+		      <li class='active'><a href="gallery.html">Gallery</a></li>
+		      <li><a href="contact us.html">Contact us</a></li>
+		      <li id='menu-name'>Welcome </li>
+		    </ul>
+	    </div>
+	  </div>
+	  <div class='row content'>
+
+	  	<div class="col-md-12 carousel-container">
+	  	
+	  	  <div id="carousel">
+	  	    <div class="carousel-feature">
+	  	      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample1.jpg"/></a>
+	  	     
+	  	    </div>
+	  	    <div class="carousel-feature">
+	  	      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample2.jpg"/></a>
+	  	      
+	  	    </div>
+	  	    <div class="carousel-feature">
+	  	      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample3.jpg"/></a>
+	  	      
+	  	    </div>
+	  	    <div class="carousel-feature">
+	  	      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample4.jpg"/></a>
+	  	    </div>
+	  	    <div class="carousel-feature">
+	  	      <a href="#"><img class="carousel-image" alt="Image Caption" src="images/sample5.jpg"/></a>
+	  	      
+	  	    </div>
+	  	  </div>
+	  	
+	  	  <div id="carousel-left"><img src="images/arrow-left.png" /></div>
+	  	  <div id="carousel-right"><img src="images/arrow-right.png" /></div>
+
+	  	</div>
+	  </div>
+
+	  <div class="row">
+	  <footer>
+	  <hr/>
+	  		<p>RG tours 2016 website by Deepak Gutteea.</p>
+	  </footer>	
+	  </div>
+	</div>
+
+		<script src="js/jquery-1.7.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.featureCarousel.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script>
+			$(function(){
+
+				var name = localStorage.name;
+				$('#menu-name').append(name);
+
+				var carousel = $("#carousel").featureCarousel({
+				  // include options like this:
+				  // (use quotes only for string values, and no trailing comma after last option)
+				  // option: value,
+				  // option: value
+				});
+			});
+
+		</script>
+    </body>
+</html>
