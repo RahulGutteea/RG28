@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>RG TOURS</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+
+
+	<div class="container">
+	  <div class="row ">
+	    <div class='col-md-3'><img id='enter' src="images/rglogo.png" alt="logo" style="width:155px; height:100px;" /></div>
+	    <div class="col-md-9">
+		    <ul class="menu nav nav-pills">
+		      <li><a href="homepage.html">Home</a></li>
+		      <li><a href="about us.html">About us</a></li>
+		      <li>
+			  
+		      	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		      	      Tours <span class="caret"></span>
+		      	    </a>
+					
+			
+		      	    <ul class="dropdown-menu">
+		      	      <li><a href="underseawalk.html">Undersea walk </a></li>
+					  <li ><a href="parasailing.html">Parasailing</a></li>
+		      	      <li><a href="Excursion.html">Excursion</a></li>
+					  <li ><a href="Safari.html">Safari</a></li>
+					  <li class='active'><a href="Catamaran.html">Catamaran</a></li>
+					  <li><a href="Submarine.html">Submarine</a></li>
+					  <li ><a href="Scuba.html">Scuba Diving</a></li>
+					  
+		      	    </ul>
+		      </li>
+		      <li><a href="gallery.html">Gallery</a></li>
+		      <li><a href="contact us.html">Contact us</a></li>
+		      <li id='menu-name'>Welcome </li>
+		    </ul>
+	    </div>
+	  </div>
+	  <div class='row content'>
+	  	
+	  	<div class="col-md-6">
+		</br></br>
+	  	<h3>Catamaran</h3>
+	  		<p><strong>
+  			Catamaran will bring you near the dolphins, a full day outside the lagoon.<br>
+			Catamaran is like a dream comes true. Spend an awesome day, make it a beautiful memory snorkling with the most preety fish in the
+			Ocean, feed them, swim with the dolphins. Have a BBQ lunch on an island near Mauritius.
+	  		</strong></p>
+			<div class="col-md-6"><a href="https://www.youtube.com/watch?v=iALYcNIh3iA" target="_blank"><img src="images/7.jpg" alt="Trou Aux Biches" style="width:210px;height:190px;padding-left:60px;"/></a></div>
+	      </br></br></br></br></br></br></br></br></br></br>
+			<p> To watch, click on the picture.
+	  </div>
+	  </div>
+
+	  <div class="row">
+	  <footer>
+	  <hr/>
+	  		<p>RG tours 2016 website by Deepak Gutteea.</p>
+			<p>
+				<a target="_blank" title="follow me on Twitter" href="http://www.twitter.com/"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
+				<a target="_blank" title="follow me on facebook" href="http://www.facebook.com/"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
+				<a target="_blank" title="follow me on google plus" href="https://plus.google.com/"><img alt="follow me on google plus" src="https://c866088.ssl.cf3.rackcdn.com/assets/googleplus30x30.png" border=0></a>
+				<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0></a>
+			</p>
+	  </footer>	
+	  </div>
+	</div>
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+
+			$(function(){
+
+				var name = localStorage.name;
+				$('#menu-name').append(name);
+			
+			});
+
+		</script>
+    </body>
+</html>
